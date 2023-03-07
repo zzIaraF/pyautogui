@@ -37,4 +37,4 @@ faturamento = df['Valor Final'].sum()
 quat_prod =df['Quantidade'].sum()
 
 # resultado
-pyautogui.alert(f"O faturamento foi R${faturamento:,.2f} \ne a qualidade vendida {quat_prod}\nprecione ok")
+pyautogui.alert(f"O faturamento foi R${faturamento:,.2f} \ne a quantidade vendida {quat_prod}\nprecione ok")
